@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #008080;
+  touch-action: none;
+}
+
+#desktop {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.icon {
+  background: white;
+  padding: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#window {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 90%;
+  height: 80%;
+  background: white;
+  border: 3px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+#titlebar {
+  background: #000080;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+canvas {
+  width: 100%;
+  height: calc(100% - 30px);
+  background: #111;
+}
