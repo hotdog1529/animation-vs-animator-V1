@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animation VS Animator Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="desktop">
+  <div class="icon" onclick="openApp('game')">🎮 Game</div>
+  <div class="icon" onclick="openApp('sandbox')">🛠 Sandbox</div>
+  <div class="icon" onclick="openApp('fight')">⚔️ 1v1</div>
+</div>
+
+<div id="window" class="hidden">
+  <div id="titlebar">
+    <span id="title">App</span>
+    <button onclick="closeApp()">X</button>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
